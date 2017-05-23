@@ -1,0 +1,41 @@
+<ion-header >
+ <ion-toolbar color="danger">
+ <p align="center">Home</p>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+ <button color="dark"ion-button [navPush] ="facebookPage">Go to facebook</button><br>
+ <div align="center" ><button color="danger" ion-button [navPush] ="infoPage">Go to info</button></div><br>
+ <div align="right" ><button color="secondary" ion-button [navPush] ="signupPage">Go to signup</button></div>
+ <ion-item-group>
+    <button ion-item color="light">
+      <ion-avatar item-left>
+      <img src="img/avatar-ts-buzz.png">
+    </ion-avatar>
+    <p>Woody Pecker</p>
+    <p ion-text color="secondary">View Profile</p>
+    </button>
+  </ion-item-group>
+  <ion-item-group>
+    <ion-item-divider color="grey"></ion-item-divider>
+    <button ion-item color="light">
+    <p>Bookmarks</p>
+    </button>
+    <button ion-item color="light">
+    <p>Reading History</p>
+    </button>
+    <button ion-item color="light">
+    <p>Stats</p>
+    </button>
+  </ion-item-group>
+  <ion-item-group>
+    <ion-item-divider color="grey"></ion-item-divider>
+    <button ion-item color="light">
+    <p>Settings</p>
+    </button>
+    <button ion-item color="light">
+    <p>Help</p>
+    </button>
+  </ion-item-group>
+  </ion-content>
